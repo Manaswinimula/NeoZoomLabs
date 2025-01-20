@@ -87,7 +87,6 @@ const StyledHeader = styled.div`
     padding: 0.5rem 1rem;
     border-radius: 5px;
     transition: all 0.3s ease;
-    font-family: 'Times New Roman', Times, serif;
 
     &.active {
       font-weight: bold;
