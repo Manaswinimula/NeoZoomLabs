@@ -1,0 +1,10 @@
+.carousel-inner {
+  height: 600px;
+}
+.card-img-top {
+  height: 250px;
+  width: 378px;
+}
+.card-columns {
+  padding: 50px;
+}

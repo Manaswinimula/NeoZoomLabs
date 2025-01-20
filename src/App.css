@@ -1,0 +1,15 @@
+/* index.css or App.css */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif; /* Apply font to all elements */
+}
+
+body {
+  font-family: "Poppins", sans-serif; /* Ensure that body text uses Poppins */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&display=swap');
