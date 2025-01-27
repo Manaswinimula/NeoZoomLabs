@@ -29,22 +29,23 @@ const StyledHeader = styled.div`
   
 
   .logo {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     font-weight: bold;
     color: #ffffff;
     text-decoration: none;
     transition: color 0.3s ease;
+    margin-left: 12px;
 
     &:hover {
       color: #0ea5e9;
     }
 
     @media (max-width: 768px) {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
     }
 
     @media (max-width: 480px) {
-      font-size: 1.2rem;
+      font-size: 0.9rem;
     }
   }
 
@@ -240,7 +241,7 @@ function Header() {
           
           <li>
             <NavLink
-              to="/logout"
+              to="/login"
               onClick={() => {
                 setMenuOpen(false);
                 handleLogout();
@@ -260,7 +261,7 @@ function Header() {
     <StyledHeader>
       <nav className="nav"> 
         <a href="/dashboard" className="logo">
-          Neo Technology
+        Zoom Digital Press Image Processing
         </a>       
         <ul className="horizontal-nav">{renderLinks()}</ul>
         

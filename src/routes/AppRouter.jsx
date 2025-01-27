@@ -23,10 +23,6 @@ function AppRouter() {
       <AuthProvider>
       <MainLayouts>
         <Routes>
-          {/* <Route path="/" element={<Home />}/> */}
-          {/* <Route path="/about" element={<About/>} />
-          <Route path="/contactus" element={<ContactUs />} />
-          <Route path="/signup" element={<SignUp />} /> */}
           <Route path="/login" element={<Login />} />
          
           <Route path="/dashboard" element={
@@ -34,7 +30,6 @@ function AppRouter() {
               <Dashboard />
             </ProtectedRouter>
           } />
-         
         </Routes>
       </MainLayouts>
       </AuthProvider>

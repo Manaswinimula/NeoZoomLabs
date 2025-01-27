@@ -254,6 +254,8 @@ const Login = () => {
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
+    
+    
 
     if (name === "email") {
       setEmailError("");
@@ -295,7 +297,7 @@ const Login = () => {
     try {
       setLoading(true);
       const response = await axios.get(
-        `http://localhost:3000/users`
+        `http://localhost:5295/api/User/GetUserList`
       );
 
       const user = response.data.find(
